@@ -1,0 +1,76 @@
+.web-develop {
+	background-color: rgba(63, 0, 255, 1);
+	border-radius: 40px;
+	// background-image: url('/image/web-develop_bg.png');
+	display: flex;
+	padding: 100px 50px 0;
+	position: relative;
+	height: 640px;
+	width: 85%;
+	// padding: 0 10%;
+	margin: 0 auto;
+	overflow: hidden;
+	color: rgba(255, 255, 255, 1);
+}
+.web-develop__info {
+	p {
+		font-size: 20px;
+		line-height: 150%;
+		padding: 10px 0;
+		margin: 10px 0;
+	}
+	h2 {
+		font-size: 90px;
+		font-weight: 900;
+		line-height: 110.00000000000001%;
+		padding: 0px 0;
+		margin: 0px 0;
+	}
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
+.web-develop_contenet {
+	display: flex;
+	padding: 60px;
+	z-index: 20;
+}
+.web-develop_img {
+	display: flex;
+	align-items: end;
+	width: 75%;
+	height: 75%;
+	z-index: 2;
+}
+.background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+.web-develop__btn {
+	background: linear-gradient(
+		to right,
+		rgba(255, 223, 0, 1),
+		rgba(255, 184, 0, 1)
+	);
+	height: 65px;
+	width: 310px;
+	border: none;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 1);
+	margin: 30px 0 0;
+}
+.web-develop__btn:hover {
+	background: linear-gradient(
+		to right,
+		rgba(255, 221, 0, 0.855),
+		rgba(255, 183, 0, 0.821)
+	);
+}
